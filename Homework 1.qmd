@@ -1,0 +1,47 @@
+---
+title: "Introduction to Data Science"
+format: html
+editor: visual
+---
+
+# Data Science
+
+**What do you think being a data scientist is about?**
+
+In my viewpoint, being a data scientist is about the ability to tell a story through data visualizations/models. When given data, we explore the concepts and methods of data science to provide insight into that data in which would not be revealed by just simply looking at observations. In totality, being a data scientist encapsulates what is means to have the ability to engineer a data set, analyze a data set, and make inferences based from that data set. It is also about knowing how to apply these techniques to a wide range of fields, because data science is useful in just about any field you can think of.
+
+**What differences/similarities do you see between data scientists and statisticians?**
+
+First off, one obvious similarity is that both 'professions' require the ability to understand and manipulate data in a way that can be analyzed/inferred. Both a data scientist and statistician need to be able to interpret and numbers/visualizations in a practical manner that can be translated to those who do not know much about either profession. Another similarity that I see is that both are trying to tell stories about data. There may be some differences in the story you are trying to tell as a data scientist or statistician; however, both require you to use data to give an answer or express something that is hard to see with the naked eye. A big difference that I think of between the two was that I usually think of data scientists dealing with very large data sets, whereas statisticians are focused mainly on sample data sets that are smaller. While this may be a very naive thought, my exposure up to this point of the two professions has led me to this belief. I also believe another difference is that statisticians do more with interpreting numbers, rather than creating visualizations. While modeling and producing numbers is apart of both professions, I have always thought of data scientists as being more involved with creating visualizations to express stories, rather than interpreting specific numbers as a statistician
+
+**How do you view yourself in relation to these two areas?**
+
+I view myself more towards to statistician side. I would much rather run statistical tests and create statistical models that produce numbers to interpret and make inferences on a population. I have never found much pleasure in viewing huge data sets and creating a bunch of visualizations (heat map, spatial graph, etc.), which is what I mostly think of when thinking about a data scientist. While both professions require some sort of data wrangling, I think management of data as a statistician is a lot different than doing it as a data scientist. The process of cleaning and wrangling data to prepare for a statistical analysis is more appealing to me then engineering a huge data set to create algorithms.
+
+# Code
+
+## R Objects
+
+For this part of the assignment, we will create an object **y**. This object will store density estimates of the *Sepal Length* column of the *iris* data set in base R.
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+Next, we are going to determine the class (`class()`), type (`typeof()`), and structure (`str()`) of our **y** object.
+
+```{r}
+cat("Class of y:\n ", class(y))
+cat("Type of y:\n ", typeof(y))
+cat("Structure of y:")
+str(y)
+```
+
+Lastly, we are going to create a plot of our **y** object. To do this, we are going to make use of the `plot()` function.
+
+```{r}
+#| echo: false
+plot(y, main = "Plot of y object")
+```
+
+
