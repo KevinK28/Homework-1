@@ -12,7 +12,20 @@ In my viewpoint, being a data scientist is about the ability to tell a story thr
 
 **What differences/similarities do you see between data scientists and statisticians?**
 
-First off, one obvious similarity is that both 'professions' require the ability to understand and manipulate data in a way that can be analyzed/inferred. Both a data scientist and statistician need to be able to interpret and numbers/visualizations in a practical manner that can be translated to those who do not know much about either profession. Another similarity that I see is that both are trying to tell stories about data. There may be some differences in the story you are trying to tell as a data scientist or statistician; however, both require you to use data to give an answer or express something that is hard to see with the naked eye. A big difference that I think of between the two was that I usually think of data scientists dealing with very large data sets, whereas statisticians are focused mainly on sample data sets that are smaller. While this may be a very naive thought, my exposure up to this point of the two professions has led me to this belief. I also believe another difference is that statisticians do more with interpreting numbers, rather than creating visualizations. While modeling and producing numbers is apart of both professions, I have always thought of data scientists as being more involved with creating visualizations to express stories, rather than interpreting specific numbers as a statistician
+First off, one obvious similarity is that both 'professions' require the ability to understand and manipulate data in a way that can be analyzed/inferred. Both a data scientist and statistician need to be able to interpret and numbers/visualizations in a practical manner that can be translated to those who do not know much about either profession. Another similarity that I see is that both are trying to tell stories about data. There may be some differences in the story you are trying to tell as a data scientist or statistician; however, both require you to use data to give an answer or express something that is hard to see with the naked eye. A big difference that I think of between the two was that I usually think of data scientists dealing with very large data sets, whereas statisticians are focused mainly on sample data sets that are smaller. While this may be a very naive thought, my exposure up to this point of the two professions has led me to this belief. I also believe another difference is that statisticians do more with interpreting numbers, rather than creating visualizations. While modeling and producing numbers is apart of both professions, I have always thought of data scientists as being more involved with creating visualizations to express stories, rather than interpreting specific numbers as a statistician. Below is a list of the big similarities/differences I find between the two:
+
+Similarities:
+
+1. Telling a Story
+2. Wrangling/Cleaning Data
+3. Modeling
+
+Differences:
+
+1. Data Scientist creates algorithms where statisticians create/run tests
+2. Data Scientists work more with very large data sets
+3. Interpreting numbers versus interpreting visualizations
+
 
 **How do you view yourself in relation to these two areas?**
 
